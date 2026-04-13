@@ -40,15 +40,15 @@ This project is an Academy Landing Page built using React + Vite with TypeScript
 ``` bash
 src/
 │
-├── assets/        # Images, icons, and static files
-├── components/    # Reusable UI components
-├── features/      # Feature-based components (sections like Testimonials, FAQ, etc.)
-├── layouts/       # Layout components (e.g., main layout, navbar, footer)
-├── styles/        # Global styles and CSS files
-├── utils/         # Helper functions and utilities
+├── assets/        
+├── components/    
+├── features/      
+├── layouts/      
+├── styles/       
+├── utils/         
 │
-├── App.tsx        # Root component
-├── main.tsx       # Application entry point
+├── App.tsx       
+├── main.tsx      
 ```
 
 ---
