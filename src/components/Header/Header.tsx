@@ -15,7 +15,8 @@ export const Header = () => {
           <div className={styles.logoIcon}>
             <div className={styles.shape14}></div>
           </div>
-          <span className={styles.logoText}>Little Learners</span>
+          <span className={styles.logoText}>
+            <img src="src\assets\icons\shape-14.svg" alt="Little Learners Logo" />Little Learners</span>
         </div>
 
         <div className={`${styles.navButtonsContainer} ${isOpen ? styles.activeMenu : ''}`}>

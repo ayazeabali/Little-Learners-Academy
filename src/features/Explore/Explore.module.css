@@ -165,3 +165,26 @@
     gap: 4px; /* تقليل الفجوات بين الخطوط لتوفير مساحة */
   }
 }
+.banner {
+  position: relative; /* ضروري لضبط الأيقونات داخله */
+  background-color: #FFBE99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* لإخفاء أي جزء خارج من الأيقونة */
+}
+
+.leftIcon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 72px; /* حسب قياسات فيجما في صورتك */
+}
+
+.rightIcon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg); /* عكس الأيقونة للجهة الأخرى */
+}
