@@ -1,5 +1,7 @@
-Task 3 - Little Learners Academy (Multipage Website)
-Overview
+## Overview
+
+Little Learners Academy (Multipage Website)
+
 This project is an advanced iteration of the Academy website, transformed into a Multi-Page Application (MPA). It features comprehensive pages for About Us and Academics, built with a focus on high-fidelity responsive design and custom functional components without external libraries.
 ---
 
