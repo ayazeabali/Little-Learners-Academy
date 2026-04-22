@@ -132,3 +132,59 @@
   line-height: 150%;
   color: #4C4C4C;
 }
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .title,
+  .description {
+    width: 100%;
+    font-size: 36px;
+
+  }
+
+  .historyContainer {
+    width: 100%;
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .historyContainer::before {
+    left: 40px;
+    top: 100px;
+    bottom: 100px;
+  }
+
+  .item {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .iconWrapper {
+    width: 100%;
+    height: auto;
+  }
+  .description {
+    font-size: 16px;
+  }
+   .itemTitle {
+    font-size: 22px;
+  }
+
+  .itemDesc {
+    font-size: 16px;
+  }
+   .historyContainer::before {
+    border-left: 2px solid #FFBE99;
+    border-right: 2px solid #FFBE99;
+    width: 1px;
+    bottom: 350px;
+    right: 15px;
+  }
+}
+
+ 

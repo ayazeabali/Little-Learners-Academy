@@ -63,9 +63,10 @@
   font-family: 'Outfit', sans-serif;
   font-weight: 500;
   color: #262626;
-  border: 2px solid #262626;
-  border-radius: 8px;
-  padding: 10px 15px;
+  /* تم إزالة البوردر والباك جراوند والبادينج الزائد */
+  border: none; 
+  background-color: transparent; 
+  padding: 5px 0;
 }
 
 .linksGrid {
@@ -106,7 +107,6 @@
   font-weight: 500;
   transition: color 0.2s;
   font-size: 16px;
-  
 }
 
 .navLink:hover {
@@ -130,8 +130,7 @@
 .legalLinks {
   display: flex;
   align-items: center;
-  gap: 15px;
-  
+  gap: 20px; /* زيادة المسافة بين الروابط بعد حذف النقطة */
 }
 
 .legalLinks a {
@@ -140,15 +139,11 @@
   font-family: 'Outfit', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  
 }
 
+/* إخفاء النقاط تماماً */
 .dot {
-  
-  width: 6px;
-  height: 6px;
-  background-color: #262626;
-  border-radius: 50%;
+  display: none;
 }
 
 .socialButtonsContainer {
