@@ -1,15 +1,16 @@
-# Task 2 - Academy Landing Page
-
-##  Overview
-This project is an Academy Landing Page built using React + Vite with TypeScript (TSX). The website follows a clean and scalable component-based architecture.
-
+Task 3 - Little Learners Academy (Multipage Website)
+Overview
+This project is an advanced iteration of the Academy website, transformed into a Multi-Page Application (MPA). It features comprehensive pages for About Us and Academics, built with a focus on high-fidelity responsive design and custom functional components without external libraries.
 ---
 
 ##  Technologies Used
-- React (TSX)
-- Vite
-- CSS 
-- Responsive Design
+- React (TSX) + Vite
+
+- React Router Dom 
+
+- Pure CSS Modules 
+
+- TypeScript 
 
 ---
 
@@ -30,6 +31,14 @@ This project is an Academy Landing Page built using React + Vite with TypeScript
 -  Slider in the **Our Testimonials** section
 -  Accordion in the **Frequently Asked Questions** section
 -  Pixel-perfect design implementation
+-  Navigation: Professional Navbar with active state tracking.
+
+- About Page: Dynamic "Our Awards" slider.
+
+- Academics Page: Category-based filtering for room galleries.
+
+- Interactive UI: Accordions for FAQs and custom-built testimonial carousels.
+
 
 ---
 
@@ -40,14 +49,17 @@ This project is an Academy Landing Page built using React + Vite with TypeScript
 src/
 │
 ├── assets/        
-├── components/    
-├── features/      
+├── components/
+├── data/         
 ├── layouts/      
-├── styles/       
-├── utils/         
+├── pages/         
+├── routes/         
+├── section/
+├── styles/        
 │
-├── App.tsx       
-├── main.tsx      
+├── App.tsx
+├── main.tsx       
+└── vite-env.d.ts    
 ```
 
 ---
