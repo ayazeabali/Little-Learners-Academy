@@ -69,8 +69,15 @@ src/
 To run the project locally:
 
 ```bash
+# Clone the repository
+ git colne https://github.com/ayazeabali/Little-Learners-Academy
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
+
 
 
 
